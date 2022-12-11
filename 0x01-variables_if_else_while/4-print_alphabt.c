@@ -2,7 +2,7 @@
 
 /**
  * main - prints the alphabet in lowercase xcept q and e
- * Return = 0
+ * Return: 0
  */
 
 int main(void)
