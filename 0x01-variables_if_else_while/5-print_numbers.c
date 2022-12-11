@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main = all single digit numbers of base 10 starting from 0, followed by a new line.
+ * main = base 10 starting from 0, followed by a new line.
  * Return: 0
  */
 
