@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main = base 10 starting from 0
+ * main - base 10 starting from 0
  * Return: 0
  */
 
