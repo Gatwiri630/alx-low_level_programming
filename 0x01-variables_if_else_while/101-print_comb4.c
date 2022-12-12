@@ -1,26 +1,26 @@
 #include <stdio.h>
 /**
- * main - all possible different combinations of three digits.
+ * main -  Prints all possible combinations of three different digits,in ascending order, separated by a comma followed by a space.
  * Return: 0
  */
 
 int main(void)
 {
-	int x, y;
+	int x, y, z;
 
-	for (x = 48; x <= 56; x++)
+	for (x = 0; x < 8; x++)
 	{
-		for (y = 49; y <= 57; y++)
+		for (y = x + 1; y < 9; y++)
 		{
-			if (y > x)
+			for (z = y + 1, z < 10; z++)
 			{
-				putchar(x);
-				putchar(y);
-				if (x != 56 || y != 57)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			putchar((x % 10) + '0');
+		putchar((y % 10) + '0');
+	putchar((z % 10) + '0');
+if (x == 7 && y == 8 && z == 9)
+continue;
+putchar(',');
+putchar(' ');
 			}
 		}
 	}
