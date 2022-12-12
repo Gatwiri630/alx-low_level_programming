@@ -16,7 +16,12 @@ int main(void)
 			if (y > x)
 			{
 				putchar(x);
-				putchar(' ');
+				putchar(y);
+				if (x != 56 || y != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
