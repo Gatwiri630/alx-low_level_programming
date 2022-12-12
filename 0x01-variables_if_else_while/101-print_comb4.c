@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -  all possible different combinations of three digits followed by a space
+ * main -  different combinations of three digits followed by space
  * Return: 0
  */
 
