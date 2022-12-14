@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints _putchar, followed by a new line.
+ * main - prints function then new line
  * Return: 0
  */
 
